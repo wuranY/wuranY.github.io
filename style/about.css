@@ -1,0 +1,42 @@
+.page-body{
+  max-width: 768px;
+  margin: auto;
+  padding-top: 32px;
+  padding-bottom: 90px;
+}
+@media screen and (max-width: 768px) {
+  .page-body{
+    padding-top: 0;
+  }
+}
+
+.article-image-container{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-bottom: 56.25%;
+  margin-bottom: 32px;
+}
+
+.article-text-title{
+  margin-bottom: 32px;
+  font-size: 32px;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .article-text-title{
+    padding: 0 16px;
+  }
+}
+
+.article-text-content{
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 26px;
+}
+@media screen and (max-width: 768px) {
+  .article-text-content{
+    padding: 0 16px;
+  }
+}

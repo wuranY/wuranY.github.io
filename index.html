@@ -1,44 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-  <meta charset="UTF-8">
+  <meta charset='UTF-8'>
   <meta
-    name="viewport"
-    content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=0,viewport-fit=cover"
+    name='viewport'
+    content='width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=0,viewport-fit=cover'
   />
-  <title>Title</title>
-  <link rel="stylesheet" href="./style/common.css">
-  <link rel="stylesheet" href="./style/index.css">
+  <title>Tiger Tea & Juice</title>
+  <link rel='stylesheet' href='./style/common.css'>
+  <link rel='stylesheet' href='./style/index.css'>
 </head>
 <body>
   <div class='page page-index'>
+    <div class='page-mobile-menu'>
+      <div class='page-mobile-menu-container'>
+        <img class='page-mobile-menu-btn-close' src='./src/close.svg' alt='Close' onclick='hideMenu()'>
+        <a href='./index.html' class='page-mobile-menu-link page-mobile-menu-link-selected'>HOME</a>
+        <a href='./locations.html' class='page-mobile-menu-link'>LOCATIONS</a>
+        <a href='./menu.html' class='page-mobile-menu-link'>MENU</a>
+        <a href='./about.html' class='page-mobile-menu-link'>ABOUT</a>
+      </div>
+    </div>
     <div class='page-container'>
       <div class='page-header'>
         <div class='page-header-left'>
-          <a href='/index.html' class='page-header-left-logo'>
+          <a href='./index.html' class='page-header-left-logo-link'>
             <img
-              src='/src/logo.png'
+              src='./src/logo.png'
               alt='Tiger tea and juice'
+              class='page-header-left-logo'
             >
           </a>
+          <img
+            src='./src/hamburger.svg'
+            alt='Menu'
+            class='page-header-left-hamburger'
+            onclick='showMenu()'
+          >
           <div class='page-header-left-link-group'>
-            <a href='/index.html' class='page-header-left-link page-header-left-link-selected'>HOME</a>
-            <a href='/locations.html' class='page-header-left-link'>LOCATIONS</a>
-            <a href='/menu.html' class='page-header-left-link'>MENU</a>
-            <a href='/about.html' class='page-header-left-link'>ABOUT</a>
+            <a href='./index.html' class='page-header-left-link page-header-left-link-selected'>HOME</a>
+            <a href='./locations.html' class='page-header-left-link'>LOCATIONS</a>
+            <a href='./menu.html' class='page-header-left-link'>MENU</a>
+            <a href='./about.html' class='page-header-left-link'>ABOUT</a>
           </div>
         </div>
         <div class='page-header-right'>
-          <div class='page-header-btn-order-now'>Order now</div>
+          <a class='page-header-btn-order-now'>Order now</a>
         </div>
       </div>
       <div class='page-body'>
-
       </div>
       <div class='page-footer'>
-
+        <div class='page-footer-nav'>
+          <a href='./index.html' class='page-footer-nav-link'>HOME</a>
+          <a href='./locations.html' class='page-footer-nav-link'>LOCATIONS</a>
+          <a href='./menu.html' class='page-footer-nav-link'>MENU</a>
+          <a href='./about.html' class='page-footer-nav-link'>ABOUT</a>
+        </div>
+        <div class='page-footer-bottom'>
+          <div class='page-footer-bottom-left'>© 2022 Tigerteaandjuice Inc. All Rights Reserved.</div>
+          <div class='page-footer-bottom-right'>
+            <a href='https://twitter.com/TigerTeaJuice' target='_blank'>
+              <img
+                src='./src/logo_t.svg' alt='Facebook'
+                class='page-footer-social-media-icon'
+              />
+            </a>
+            <a href='https://www.facebook.com/tigerteaandjuice/' target='_blank'>
+              <img
+                src='./src/logo_f.svg' alt='Facebook'
+                class='page-footer-social-media-icon'
+              />
+            </a>
+            <a href='https://www.instagram.com/tigerteaandjuice/' target='_blank'>
+              <img
+                src='./src/logo_i.svg' alt='Facebook'
+                class='page-footer-social-media-icon'
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  <script type='text/javascript' src='./script/utils.js'></script>
 </body>
 </html>

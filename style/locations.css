@@ -1,18 +1,8 @@
 .page-body{
-  max-width: 1440px;
+  max-width: 1024px;
   margin: auto;
   padding-top: 32px;
   padding-bottom: 90px;
-}
-@media screen and (max-width: 1440px) {
-  .page-body{
-    max-width: 1280px;
-  }
-}
-@media screen and (max-width: 1280px) {
-  .page-body{
-    max-width: 1024px;
-  }
 }
 @media screen and (max-width: 768px) {
   .page-body{
@@ -28,7 +18,7 @@
 .location-list > .single-location{
   display: flex;
   justify-content: space-between;
-  height: 400px;
+  height: 300px;
 }
 @media screen and (max-width: 768px) {
   .location-list > .single-location{
@@ -58,8 +48,8 @@
 @media screen and (max-width: 768px) {
   .location-image-container{
     width: 100%;
+    padding-bottom: 56.25%;
     margin-right: 0;
-    height: 240px;
     margin-bottom: 16px;
   }
 }
@@ -81,36 +71,36 @@
 }
 
 .location-store-name{
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 .location-open-hours{
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 .location-open-hours > .single-open-hour{
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .location-open-hours > .single-open-hour:not(:last-of-type){
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .location-store-address-1{
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .location-store-address-1 > a{
-  font-size: 20px;
+  font-size: 16px;
   color: #357894;
   cursor: pointer;
   text-decoration: underline;
 }
 
 .location-store-address-2{
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 768px) {

@@ -156,8 +156,7 @@
   height: 40px;
   width: fit-content;
   border-radius: 20px;
-  background: #000;
-  color: #fff;
+  color: #424242;
   font-size: 14px;
   font-weight: 700;
   display: flex;
@@ -166,4 +165,5 @@
   padding: 0 20px;
   cursor: pointer;
   margin-top: 20px;
+  border: 1px solid #424242;
 }

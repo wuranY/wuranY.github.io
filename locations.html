@@ -11,161 +11,161 @@
   <link rel='stylesheet' href='./style/locations.css'>
 </head>
 <body>
-<div class='page page-index'>
+  <div class='page page-index'>
 
-<!--  <div class='single-location'>-->
-<!--              <div class='location-image-container' style='background-image:url("https://picsum.photos/id/124/200/300")'></div>-->
-<!--    <div class='location-info-container'>-->
-<!--      <div class='location-store-name'>Tiger Tea & Juice - San Mateo</div>-->
-<!--                  <div class='location-open-hours'>-->
-<!--                    <div class='single-open-hour'>Sunday-Thursday: 11am - 8pm</div>-->
-<!--                    <div class='single-open-hour'>Friday-Saturday: 11am - 9pm</div>-->
-<!--                  </div>-->
-<!--      <div class='location-store-address-1'><a href='https://goo.gl/maps/A7Kt4sxS5GifT5Mh9?coh=178572&entry=tt' target='_blank'>212 E 3rd Ave</a></div>-->
-<!--      <div class='location-store-address-2'>San Mateo, CA 94401</div>-->
-<!--      <a href='https://order.snackpass.co/Tiger-Tea-and-Juice-San-Mateo-62ed2687a30c1900cd598e5c' target='_blank'><div class='btn-get-direction'>Start order</div></a>-->
-<!--    </div>-->
-<!--  </div>-->
+  <!--  <div class='single-location'>-->
+  <!--              <div class='location-image-container' style='background-image:url("https://picsum.photos/id/124/200/300")'></div>-->
+  <!--    <div class='location-info-container'>-->
+  <!--      <div class='location-store-name'>Tiger Tea & Juice - San Mateo</div>-->
+  <!--                  <div class='location-open-hours'>-->
+  <!--                    <div class='single-open-hour'>Sunday-Thursday: 11am - 8pm</div>-->
+  <!--                    <div class='single-open-hour'>Friday-Saturday: 11am - 9pm</div>-->
+  <!--                  </div>-->
+  <!--      <div class='location-store-address-1'><a href='https://goo.gl/maps/A7Kt4sxS5GifT5Mh9?coh=178572&entry=tt' target='_blank'>212 E 3rd Ave</a></div>-->
+  <!--      <div class='location-store-address-2'>San Mateo, CA 94401</div>-->
+  <!--      <a href='https://order.snackpass.co/Tiger-Tea-and-Juice-San-Mateo-62ed2687a30c1900cd598e5c' target='_blank'><div class='btn-get-direction'>Start order</div></a>-->
+  <!--    </div>-->
+  <!--  </div>-->
 
-  <div class='popup-pickup-store'>
-    <div class='popup-pickup-store-mask' onclick='hidePopup()'>
-      <div class='popup-pickup-store-container'>
-        <div class='popup-pickup-store-btn-close-container'>
-          <img src='./src/close.svg' alt='' onclick='hidePopup()'>
-        </div>
-        <div class='popup-pickup-store-title'>Choose a store</div>
-        <div class='popup-pickup-store-list'>
-          <div class='single-pickup-store'>
-            <div class='pickup-store-name'>Tiger Tea & Juice - San Mateo</div>
-            <div class='pickup-store-address'>212 E 3rd Ave, San Mateo, CA 94401</div>
-            <a class='btn-pickup-store-order-now' href='https://order.snackpass.co/Tiger-Tea-and-Juice-San-Mateo-62ed2687a30c1900cd598e5c' target='_blank'>
-              Order now
-            </a>
+    <div class='popup-pickup-store'>
+      <div class='popup-pickup-store-mask' onclick='hidePopup()'>
+        <div class='popup-pickup-store-container'>
+          <div class='popup-pickup-store-btn-close-container'>
+            <img src='./src/close.svg' alt='' onclick='hidePopup()'>
           </div>
-          <div class='single-pickup-store'>
-            <div class='pickup-store-name'>Tiger Tea & Juice - Burlingame</div>
-            <div class='pickup-store-address'>1803 El Camino Real, Burlingame, CA 94010</div>
-            <a class='btn-pickup-store-order-now' href='https://order.snackpass.co/Tiger-Tea-and-Juice-Burlingame-61e88f3719a15c01509163bd?fbclid=PAAab4oe9vH7tSn8BYKmmhgsGV5d4Hn8naycfJDuwKHfz5SjO6EOh6TDQ0np0' target='_blank'>
-              Order now
-            </a>
-          </div>
-          <div class='single-pickup-store'>
-            <div class='pickup-store-name'>Tiger Tea & Juice - Daly City</div>
-            <div class='pickup-store-address'>79 Skyline Plaza, Daly City, CA 94015</div>
-            <a class='btn-pickup-store-order-now' href='https://order.snackpass.co/Tiger-Tea-and-Juice-Daly-City-79-Skyline-Plaza-60dc9b410f008c0101c6bb19' target='_blank'>
-              Order now
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class='page-mobile-menu'>
-    <div class='page-mobile-menu-container'>
-      <img class='page-mobile-menu-btn-close' src='./src/close.svg' alt='Close' onclick='hideMenu()'>
-      <a href='./index.html' class='page-mobile-menu-link'>HOME</a>
-      <a href='./locations.html' class='page-mobile-menu-link page-mobile-menu-link-selected'>LOCATIONS</a>
-      <a href='./menu.html' class='page-mobile-menu-link'>MENU</a>
-      <a href='./about.html' class='page-mobile-menu-link'>ABOUT</a>
-    </div>
-  </div>
-  <div class='page-container'>
-    <div class='page-header'>
-      <div class='page-header-left'>
-        <a href='./index.html' class='page-header-left-logo-link'>
-          <img
-            src='./src/logo.png'
-            alt='Tiger tea and juice'
-            class='page-header-left-logo'
-          >
-        </a>
-        <img
-          src='./src/hamburger.svg'
-          alt='Menu'
-          class='page-header-left-hamburger'
-          onclick='showMenu()'
-        >
-        <div class='page-header-left-link-group'>
-          <a href='./index.html' class='page-header-left-link'>HOME</a>
-          <a href='./locations.html' class='page-header-left-link page-header-left-link-selected'>LOCATIONS</a>
-          <a href='./menu.html' class='page-header-left-link'>MENU</a>
-          <a href='./about.html' class='page-header-left-link'>ABOUT</a>
-        </div>
-      </div>
-      <div class='page-header-right'>
-        <a class='page-header-btn-order-now' onclick='showPopup()'>Start order</a>
-      </div>
-    </div>
-    <div class='page-body'>
-      <div class='location-list'>
-        <div class='single-location'>
-          <div class='location-info-container'>
-            <div class='location-store-name'>Tiger Tea & Juice - San Mateo</div>
-            <div class='location-store-address-1'><a href='https://goo.gl/maps/A7Kt4sxS5GifT5Mh9?coh=178572&entry=tt' target='_blank'>212 E 3rd Ave</a></div>
-            <div class='location-store-address-2'>San Mateo, CA 94401</div>
-            <a href='https://order.snackpass.co/Tiger-Tea-and-Juice-San-Mateo-62ed2687a30c1900cd598e5c' target='_blank'><div class='btn-get-direction'>Order now</div></a>
-          </div>
-        </div>
-        <div class='single-location'>
-          <div class='location-info-container'>
-            <div class='location-store-name'>Tiger Tea & Juice - Burlingame</div>
-            <div class='location-store-address-1'><a href='https://goo.gl/maps/kSxwSwAAsThGkuBFA' target='_blank'>1803 El Camino Real</a></div>
-            <div class='location-store-address-2'>Burlingame, CA 94010</div>
-            <a href='https://order.snackpass.co/Tiger-Tea-and-Juice-Burlingame-61e88f3719a15c01509163bd?fbclid=PAAab4oe9vH7tSn8BYKmmhgsGV5d4Hn8naycfJDuwKHfz5SjO6EOh6TDQ0np0' target='_blank'><div class='btn-get-direction'>Order now</div></a>
-          </div>
-        </div>
-        <div class='single-location'>
-          <div class='location-info-container'>
-            <div class='location-store-name'>Tiger Tea & Juice (Daly City, 79 Skyline Plaza)</div>
-            <div class='location-store-address-1'><a href='https://goo.gl/maps/fKcZDHGSMnKRKr9WA?coh=178572&entry=tt' target='_blank'>79 Skyline Plaza</a></div>
-            <div class='location-store-address-2'>Daly City, CA 94015</div>
-            <a href='https://goo.gl/maps/kSxwSwAAsThGkuBFA' target='_blank'><div class='btn-get-direction'>Order now</div></a>
-          </div>
-        </div>
-        <div class='single-location'>
-          <div class='location-info-container'>
-            <div class='location-store-name'>Tiger Tea & Juice - San Jose</div>
-            <div class='location-store-address-1'><a href='https://goo.gl/maps/5Z5nnUB7PcaN2sSy5?coh=178572&entry=tt' target='_blank'>1706 Oakland Rd, Ste 25</a></div>
-            <div class='location-store-address-2'>San Jose, CA 95131
+          <div class='popup-pickup-store-title'>Choose a store</div>
+          <div class='popup-pickup-store-list'>
+            <div class='single-pickup-store'>
+              <div class='pickup-store-name'>Tiger Tea & Juice - San Mateo</div>
+              <div class='pickup-store-address'>212 E 3rd Ave, San Mateo, CA 94401</div>
+              <a class='btn-pickup-store-order-now' href='https://order.snackpass.co/Tiger-Tea-and-Juice-San-Mateo-62ed2687a30c1900cd598e5c' target='_blank'>
+                Order now
+              </a>
+            </div>
+            <div class='single-pickup-store'>
+              <div class='pickup-store-name'>Tiger Tea & Juice - Burlingame</div>
+              <div class='pickup-store-address'>1803 El Camino Real, Burlingame, CA 94010</div>
+              <a class='btn-pickup-store-order-now' href='https://order.snackpass.co/Tiger-Tea-and-Juice-Burlingame-61e88f3719a15c01509163bd?fbclid=PAAab4oe9vH7tSn8BYKmmhgsGV5d4Hn8naycfJDuwKHfz5SjO6EOh6TDQ0np0' target='_blank'>
+                Order now
+              </a>
+            </div>
+            <div class='single-pickup-store'>
+              <div class='pickup-store-name'>Tiger Tea & Juice - Daly City</div>
+              <div class='pickup-store-address'>79 Skyline Plaza, Daly City, CA 94015</div>
+              <a class='btn-pickup-store-order-now' href='https://order.snackpass.co/Tiger-Tea-and-Juice-Daly-City-79-Skyline-Plaza-60dc9b410f008c0101c6bb19' target='_blank'>
+                Order now
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class='page-footer'>
-      <div class='page-footer-nav'>
-        <a href='./index.html' class='page-footer-nav-link'>HOME</a>
-        <a href='./locations.html' class='page-footer-nav-link'>LOCATIONS</a>
-        <a href='./menu.html' class='page-footer-nav-link'>MENU</a>
-        <a href='./about.html' class='page-footer-nav-link'>ABOUT</a>
+
+    <div class='page-mobile-menu'>
+      <div class='page-mobile-menu-container'>
+        <img class='page-mobile-menu-btn-close' src='./src/close.svg' alt='Close' onclick='hideMenu()'>
+        <a href='./index.html' class='page-mobile-menu-link'>HOME</a>
+        <a href='./locations.html' class='page-mobile-menu-link page-mobile-menu-link-selected'>LOCATIONS</a>
+        <a href='./menu.html' class='page-mobile-menu-link'>MENU</a>
+        <a href='./about.html' class='page-mobile-menu-link'>ABOUT</a>
       </div>
-      <div class='page-footer-bottom'>
-        <div class='page-footer-bottom-left'>© 2022 Tigerteaandjuice Inc. All Rights Reserved.</div>
-        <div class='page-footer-bottom-right'>
-          <a href='https://twitter.com/TigerTeaJuice' target='_blank'>
+    </div>
+    <div class='page-container'>
+      <div class='page-header'>
+        <div class='page-header-left'>
+          <a href='./index.html' class='page-header-left-logo-link'>
             <img
-              src='./src/logo_t.svg' alt='Facebook'
-              class='page-footer-social-media-icon'
-            />
+              src='./src/logo.png'
+              alt='Tiger tea and juice'
+              class='page-header-left-logo'
+            >
           </a>
-          <a href='https://www.facebook.com/tigerteaandjuice/' target='_blank'>
-            <img
-              src='./src/logo_f.svg' alt='Facebook'
-              class='page-footer-social-media-icon'
-            />
-          </a>
-          <a href='https://www.instagram.com/tigerteaandjuice/' target='_blank'>
-            <img
-              src='./src/logo_i.svg' alt='Facebook'
-              class='page-footer-social-media-icon'
-            />
-          </a>
+          <img
+            src='./src/hamburger.svg'
+            alt='Menu'
+            class='page-header-left-hamburger'
+            onclick='showMenu()'
+          >
+          <div class='page-header-left-link-group'>
+            <a href='./index.html' class='page-header-left-link'>HOME</a>
+            <a href='./locations.html' class='page-header-left-link page-header-left-link-selected'>LOCATIONS</a>
+            <a href='./menu.html' class='page-header-left-link'>MENU</a>
+            <a href='./about.html' class='page-header-left-link'>ABOUT</a>
+          </div>
+        </div>
+        <div class='page-header-right'>
+          <a class='page-header-btn-order-now' onclick='showPopup()'>Start order</a>
+        </div>
+      </div>
+      <div class='page-body'>
+        <div class='location-list'>
+          <div class='single-location'>
+            <div class='location-info-container'>
+              <div class='location-store-name'>Tiger Tea & Juice - Burlingame</div>
+              <div class='location-store-address-1'><a href='https://goo.gl/maps/kSxwSwAAsThGkuBFA' target='_blank'>1803 El Camino Real</a></div>
+              <div class='location-store-address-2'>Burlingame, CA 94010</div>
+              <a href='https://order.snackpass.co/Tiger-Tea-and-Juice-Burlingame-61e88f3719a15c01509163bd?fbclid=PAAab4oe9vH7tSn8BYKmmhgsGV5d4Hn8naycfJDuwKHfz5SjO6EOh6TDQ0np0' target='_blank'><div class='btn-get-direction'>Order now</div></a>
+            </div>
+          </div>
+          <div class='single-location'>
+            <div class='location-info-container'>
+              <div class='location-store-name'>Tiger Tea & Juice - San Mateo</div>
+              <div class='location-store-address-1'><a href='https://goo.gl/maps/A7Kt4sxS5GifT5Mh9?coh=178572&entry=tt' target='_blank'>212 E 3rd Ave</a></div>
+              <div class='location-store-address-2'>San Mateo, CA 94401</div>
+              <a href='https://order.snackpass.co/Tiger-Tea-and-Juice-San-Mateo-62ed2687a30c1900cd598e5c' target='_blank'><div class='btn-get-direction'>Order now</div></a>
+            </div>
+          </div>
+          <div class='single-location'>
+            <div class='location-info-container'>
+              <div class='location-store-name'>Tiger Tea & Juice - Daly City</div>
+              <div class='location-store-address-1'><a href='https://goo.gl/maps/fKcZDHGSMnKRKr9WA?coh=178572&entry=tt' target='_blank'>79 Skyline Plaza</a></div>
+              <div class='location-store-address-2'>Daly City, CA 94015</div>
+              <a href='https://goo.gl/maps/kSxwSwAAsThGkuBFA' target='_blank'><div class='btn-get-direction'>Order now</div></a>
+            </div>
+          </div>
+          <div class='single-location'>
+            <div class='location-info-container'>
+              <div class='location-store-name'>Tiger Tea & Juice - San Jose</div>
+              <div class='location-store-address-1'><a href='https://goo.gl/maps/5Z5nnUB7PcaN2sSy5?coh=178572&entry=tt' target='_blank'>1706 Oakland Rd, Ste 25</a></div>
+              <div class='location-store-address-2'>San Jose, CA 95131
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='page-footer'>
+        <div class='page-footer-nav'>
+          <a href='./index.html' class='page-footer-nav-link'>HOME</a>
+          <a href='./locations.html' class='page-footer-nav-link'>LOCATIONS</a>
+          <a href='./menu.html' class='page-footer-nav-link'>MENU</a>
+          <a href='./about.html' class='page-footer-nav-link'>ABOUT</a>
+        </div>
+        <div class='page-footer-bottom'>
+          <div class='page-footer-bottom-left'>© 2022 Tiger Tea Inc. all rights reserved</div>
+          <div class='page-footer-bottom-right'>
+            <a href='https://twitter.com/TigerTeaJuice' target='_blank'>
+              <img
+                src='./src/logo_t.svg' alt='Twitter'
+                class='page-footer-social-media-icon'
+              />
+            </a>
+            <a href='https://www.facebook.com/tigerteaandjuice/' target='_blank'>
+              <img
+                src='./src/logo_f.svg' alt='Facebook'
+                class='page-footer-social-media-icon'
+              />
+            </a>
+            <a href='https://www.instagram.com/tigerteaandjuice/' target='_blank'>
+              <img
+                src='./src/logo_i.svg' alt='Instagram'
+                class='page-footer-social-media-icon'
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<script type='text/javascript' src='./script/utils.js'></script>
+  <script type='text/javascript' src='./script/utils.js'></script>
 </body>
 </html>

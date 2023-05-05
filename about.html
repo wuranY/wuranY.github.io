@@ -11,128 +11,129 @@
   <link rel='stylesheet' href='./style/about.css'>
 </head>
 <body>
-<div class='page page-index'>
+  <div class='page page-index'>
 
-  <div class='popup-pickup-store'>
-    <div class='popup-pickup-store-mask' onclick='hidePopup()'>
-      <div class='popup-pickup-store-container'>
-        <div class='popup-pickup-store-btn-close-container'>
-          <img src='./src/close.svg' alt='' onclick='hidePopup()'>
-        </div>
-        <div class='popup-pickup-store-title'>Choose a store</div>
-        <div class='popup-pickup-store-list'>
-          <div class='single-pickup-store'>
-            <div class='pickup-store-name'>Tiger Tea & Juice - San Mateo</div>
-            <div class='pickup-store-address'>212 E 3rd Ave, San Mateo, CA 94401</div>
-            <a class='btn-pickup-store-order-now' href='https://order.snackpass.co/Tiger-Tea-and-Juice-San-Mateo-62ed2687a30c1900cd598e5c' target='_blank'>
-              Order now
-            </a>
+    <div class='popup-pickup-store'>
+      <div class='popup-pickup-store-mask' onclick='hidePopup()'>
+        <div class='popup-pickup-store-container'>
+          <div class='popup-pickup-store-btn-close-container'>
+            <img src='./src/close.svg' alt='' onclick='hidePopup()'>
           </div>
-          <div class='single-pickup-store'>
-            <div class='pickup-store-name'>Tiger Tea & Juice - Burlingame</div>
-            <div class='pickup-store-address'>1803 El Camino Real, Burlingame, CA 94010</div>
-            <a class='btn-pickup-store-order-now' href='https://order.snackpass.co/Tiger-Tea-and-Juice-Burlingame-61e88f3719a15c01509163bd?fbclid=PAAab4oe9vH7tSn8BYKmmhgsGV5d4Hn8naycfJDuwKHfz5SjO6EOh6TDQ0np0' target='_blank'>
-              Order now
-            </a>
-          </div>
-          <div class='single-pickup-store'>
-            <div class='pickup-store-name'>Tiger Tea & Juice - Daly City</div>
-            <div class='pickup-store-address'>79 Skyline Plaza, Daly City, CA 94015</div>
-            <a class='btn-pickup-store-order-now' href='https://order.snackpass.co/Tiger-Tea-and-Juice-Daly-City-79-Skyline-Plaza-60dc9b410f008c0101c6bb19' target='_blank'>
-              Order now
-            </a>
+          <div class='popup-pickup-store-title'>Choose a store</div>
+          <div class='popup-pickup-store-list'>
+            <div class='single-pickup-store'>
+              <div class='pickup-store-name'>Tiger Tea & Juice - San Mateo</div>
+              <div class='pickup-store-address'>212 E 3rd Ave, San Mateo, CA 94401</div>
+              <a class='btn-pickup-store-order-now' href='https://order.snackpass.co/Tiger-Tea-and-Juice-San-Mateo-62ed2687a30c1900cd598e5c' target='_blank'>
+                Order now
+              </a>
+            </div>
+            <div class='single-pickup-store'>
+              <div class='pickup-store-name'>Tiger Tea & Juice - Burlingame</div>
+              <div class='pickup-store-address'>1803 El Camino Real, Burlingame, CA 94010</div>
+              <a class='btn-pickup-store-order-now' href='https://order.snackpass.co/Tiger-Tea-and-Juice-Burlingame-61e88f3719a15c01509163bd?fbclid=PAAab4oe9vH7tSn8BYKmmhgsGV5d4Hn8naycfJDuwKHfz5SjO6EOh6TDQ0np0' target='_blank'>
+                Order now
+              </a>
+            </div>
+            <div class='single-pickup-store'>
+              <div class='pickup-store-name'>Tiger Tea & Juice - Daly City</div>
+              <div class='pickup-store-address'>79 Skyline Plaza, Daly City, CA 94015</div>
+              <a class='btn-pickup-store-order-now' href='https://order.snackpass.co/Tiger-Tea-and-Juice-Daly-City-79-Skyline-Plaza-60dc9b410f008c0101c6bb19' target='_blank'>
+                Order now
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class='page-mobile-menu'>
-    <div class='page-mobile-menu-container'>
-      <img class='page-mobile-menu-btn-close' src='./src/close.svg' alt='Close' onclick='hideMenu()'>
-      <a href='./index.html' class='page-mobile-menu-link'>HOME</a>
-      <a href='./locations.html' class='page-mobile-menu-link'>LOCATIONS</a>
-      <a href='./menu.html' class='page-mobile-menu-link'>MENU</a>
-      <a href='./about.html' class='page-mobile-menu-link page-mobile-menu-link-selected'>ABOUT</a>
+    <div class='page-mobile-menu'>
+      <div class='page-mobile-menu-container'>
+        <img class='page-mobile-menu-btn-close' src='./src/close.svg' alt='Close' onclick='hideMenu()'>
+        <a href='./index.html' class='page-mobile-menu-link'>HOME</a>
+        <a href='./locations.html' class='page-mobile-menu-link'>LOCATIONS</a>
+        <a href='./menu.html' class='page-mobile-menu-link'>MENU</a>
+        <a href='./about.html' class='page-mobile-menu-link page-mobile-menu-link-selected'>ABOUT</a>
+      </div>
     </div>
-  </div>
-  <div class='page-container'>
-    <div class='page-header'>
-      <div class='page-header-left'>
-        <a href='./index.html' class='page-header-left-logo-link'>
+    <div class='page-container'>
+      <div class='page-header'>
+        <div class='page-header-left'>
+          <a href='./index.html' class='page-header-left-logo-link'>
+            <img
+              src='./src/logo.png'
+              alt='Tiger tea and juice'
+              class='page-header-left-logo'
+            >
+          </a>
           <img
-            src='./src/logo.png'
-            alt='Tiger tea and juice'
-            class='page-header-left-logo'
+            src='./src/hamburger.svg'
+            alt='Menu'
+            class='page-header-left-hamburger'
+            onclick='showMenu()'
           >
-        </a>
-        <img
-          src='./src/hamburger.svg'
-          alt='Menu'
-          class='page-header-left-hamburger'
-          onclick='showMenu()'
-        >
-        <div class='page-header-left-link-group'>
-          <a href='./index.html' class='page-header-left-link'>HOME</a>
-          <a href='./locations.html' class='page-header-left-link'>LOCATIONS</a>
-          <a href='./menu.html' class='page-header-left-link'>MENU</a>
-          <a href='./about.html' class='page-header-left-link page-header-left-link-selected'>ABOUT</a>
+          <div class='page-header-left-link-group'>
+            <a href='./index.html' class='page-header-left-link'>HOME</a>
+            <a href='./locations.html' class='page-header-left-link'>LOCATIONS</a>
+            <a href='./menu.html' class='page-header-left-link'>MENU</a>
+            <a href='./about.html' class='page-header-left-link page-header-left-link-selected'>ABOUT</a>
+          </div>
+        </div>
+        <div class='page-header-right'>
+          <a class='page-header-btn-order-now' onclick='showPopup()'>Start order</a>
         </div>
       </div>
-      <div class='page-header-right'>
-        <a class='page-header-btn-order-now' onclick='showPopup()'>Start order</a>
+      <div class='page-body'>
+        <div class='article-image-container' style='background-image:url("./src/about_2.jpeg")'>
+        </div>
+        <div class='article-text-title'>Tiger Tea & Juice</div>
+        <div class='article-text-content'>Established in 2015 in the San Francisco Bay Area, Tiger Tea & Juice sources the finest teas from around the world. Our ingredients are strictly quality-controlled for a rich, lingering taste, making it an ideal choice for those who appreciate high-quality tea.
+        </div>
+        <div class='article-text-content'>
+          We select fresh, in-season fruits without any artificial colors or flavors, allowing you to enjoy the true taste of nature's bounty.
+        </div>
+        <div class='article-text-content'>
+          Our healthy beverages are made from natural ingredients without additives or artificial colors, providing a refreshing taste that's also rich in nutrition, making it a great choice for those who are committed to maintaining a healthy lifestyle while enjoying boba tea.
+        </div>
+        <div class='article-text-content'>
+          At Tiger Tea & Juice, we’re committed to providing passionate and attentive service while offering excellent products. Our trained staff will provide you with warm and caring service throughout your experience. Whether it's a busy workday or a relaxing weekend, we offer you the best options to indulge in while enjoying a pleasurable experience. We appreciate your support and look forward to your visit!
+        </div>
+        <div class='article-image-container article-image-container-large' style='background-image:url("./src/about_1.jpeg")'>
+        </div>
       </div>
-    </div>
-    <div class='page-body'>
-      <div class='article-image-container' style='background-image:url("./src/about_2.jpeg")'>
-      </div>
-      <div class='article-text-title'>Tiger Tea & Juice</div>
-      <div class='article-text-content'>Established in 2015 in the San Francisco Bay Area, Tiger Tea & Juice sources the finest teas from around the world. Our ingredients are strictly quality-controlled for a rich, lingering taste, making it an ideal choice for those who appreciate high-quality tea.
-      </div>
-      <div class='article-text-content'>
-        We select fresh, in-season fruits without any artificial colors or flavors, allowing you to enjoy the true taste of nature's bounty.
-      </div>
-      <div class='article-text-content'>
-        Our healthy beverages are made from natural ingredients without additives or artificial colors, providing a refreshing taste that's also rich in nutrition, making it a great choice for those who are committed to maintaining a healthy lifestyle while enjoying boba tea.
-      </div>
-      <div class='article-text-content'>
-        At Tiger Tea & Juice, we’re committed to providing passionate and attentive service while offering excellent products. Our trained staff will provide you with warm and caring service throughout your experience. Whether it's a busy workday or a relaxing weekend, we offer you the best options to indulge in while enjoying a pleasurable experience. We appreciate your support and look forward to your visit!
-      </div>
-      <div class='article-image-container article-image-container-large' style='background-image:url("./src/about_1.jpeg")'>
-      </div>
-    <div class='page-footer'>
-      <div class='page-footer-nav'>
-        <a href='./index.html' class='page-footer-nav-link'>HOME</a>
-        <a href='./locations.html' class='page-footer-nav-link'>LOCATIONS</a>
-        <a href='./menu.html' class='page-footer-nav-link'>MENU</a>
-        <a href='./about.html' class='page-footer-nav-link'>ABOUT</a>
-      </div>
-      <div class='page-footer-bottom'>
-        <div class='page-footer-bottom-left'>© 2022 Tigerteaandjuice Inc. All Rights Reserved.</div>
-        <div class='page-footer-bottom-right'>
-          <a href='https://twitter.com/TigerTeaJuice' target='_blank'>
-            <img
-              src='./src/logo_t.svg' alt='Facebook'
-              class='page-footer-social-media-icon'
-            />
-          </a>
-          <a href='https://www.facebook.com/tigerteaandjuice/' target='_blank'>
-            <img
-              src='./src/logo_f.svg' alt='Facebook'
-              class='page-footer-social-media-icon'
-            />
-          </a>
-          <a href='https://www.instagram.com/tigerteaandjuice/' target='_blank'>
-            <img
-              src='./src/logo_i.svg' alt='Facebook'
-              class='page-footer-social-media-icon'
-            />
-          </a>
+      <div class='page-footer'>
+        <div class='page-footer-nav'>
+          <a href='./index.html' class='page-footer-nav-link'>HOME</a>
+          <a href='./locations.html' class='page-footer-nav-link'>LOCATIONS</a>
+          <a href='./menu.html' class='page-footer-nav-link'>MENU</a>
+          <a href='./about.html' class='page-footer-nav-link'>ABOUT</a>
+        </div>
+        <div class='page-footer-bottom'>
+          <div class='page-footer-bottom-left'>© 2022 Tiger Tea Inc. all rights reserved</div>
+          <div class='page-footer-bottom-right'>
+            <a href='https://twitter.com/TigerTeaJuice' target='_blank'>
+              <img
+                src='./src/logo_t.svg' alt='Twitter'
+                class='page-footer-social-media-icon'
+              />
+            </a>
+            <a href='https://www.facebook.com/tigerteaandjuice/' target='_blank'>
+              <img
+                src='./src/logo_f.svg' alt='Facebook'
+                class='page-footer-social-media-icon'
+              />
+            </a>
+            <a href='https://www.instagram.com/tigerteaandjuice/' target='_blank'>
+              <img
+                src='./src/logo_i.svg' alt='Instagram'
+                class='page-footer-social-media-icon'
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<script type='text/javascript' src='./script/utils.js'></script>
+  <script type='text/javascript' src='./script/utils.js'></script>
 </body>
 </html>

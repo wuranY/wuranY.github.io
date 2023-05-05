@@ -28,6 +28,24 @@ function hideMenu() {
 	}, 300)
 }
 
+function showPopup() {
+	document.body.style.overflow = 'hidden'
+	const popupElement = document.querySelector('.popup-pickup-store')
+	popupElement.classList.add('popup-pickup-store-show')
+	setTimeout(() => {
+		popupElement.style.opacity = '1'
+	}, 200)
+}
+
+function hidePopup() {
+	document.body.style.overflow = 'auto'
+	const popupElement = document.querySelector('.popup-pickup-store')
+	popupElement.style.opacity = '0'
+	setTimeout(() => {
+		popupElement.classList.remove('popup-pickup-store-show')
+	}, 200)
+}
+
 window.onload = function () {
 	const menuElement = document.querySelector('.page-mobile-menu')
 	const menuContainerElement = document.querySelector('.page-mobile-menu-container')

@@ -296,7 +296,7 @@ a{
 
 .popup-pickup-store-container{
   position: absolute;
-  top: 16px;
+  top: 48px;
   left: 50%;
   transform: translateX(-50%);
   background-color: #fff;
@@ -306,6 +306,11 @@ a{
   padding: 16px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
   z-index: 3;
+}
+@media screen and (max-width: 768px) {
+  .popup-pickup-store-container{
+    top: 32px;
+  }
 }
 
 .popup-pickup-store-container > .popup-pickup-store-btn-close-container{

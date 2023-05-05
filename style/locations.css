@@ -1,27 +1,39 @@
 .page-body{
-  max-width: 1024px;
+  max-width: 800px;
   margin: auto;
-  padding-top: 32px;
-  padding-bottom: 90px;
+  padding: 32px 16px 90px 16px;
 }
 @media screen and (max-width: 768px) {
   .page-body{
-    padding-top: 0;
+    padding-top: 16px;
   }
 }
 
 .location-list{
-  display: flex;
-  flex-direction: column;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(auto-fill, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+  .location-list{
+    grid-gap: 16px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill, 1fr);
+  }
 }
 
 .location-list > .single-location{
-  display: flex;
-  justify-content: space-between;
-  height: 300px;
+  padding: 16px 20px;
+  border: 0.5px solid #424242;
+  border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
   .location-list > .single-location{
+    padding: 16px 16px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -29,14 +41,14 @@
   }
 }
 
-.location-list > .single-location:not(:last-of-type){
-  margin-bottom: 32px;
-}
-@media screen and (max-width: 768px) {
-  .location-list > .single-location:not(:last-of-type){
-    margin-bottom: 24px;
-  }
-}
+/*.location-list > .single-location:not(:last-of-type){*/
+/*  margin-bottom: 32px;*/
+/*}*/
+/*@media screen and (max-width: 768px) {*/
+/*  .location-list > .single-location:not(:last-of-type){*/
+/*    margin-bottom: 24px;*/
+/*  }*/
+/*}*/
 
 .location-image-container{
   width: calc(50% - 16px);
@@ -55,8 +67,8 @@
 }
 
 .location-info-container{
-  width: calc(50% - 16px);
-  margin-left: 16px;
+  /*width: calc(50% - 16px);*/
+  /*margin-left: 16px;*/
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -71,9 +83,9 @@
 }
 
 .location-store-name{
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .location-open-hours{
@@ -89,18 +101,18 @@
 }
 
 .location-store-address-1{
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .location-store-address-1 > a{
-  font-size: 16px;
+  font-size: 14px;
   color: #357894;
   cursor: pointer;
   text-decoration: underline;
 }
 
 .location-store-address-2{
-  font-size: 16px;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {
@@ -127,7 +139,7 @@
 
   .location-store-address-1{
     text-align: center;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
   }
 
   .location-store-address-1 > a{

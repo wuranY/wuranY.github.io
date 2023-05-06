@@ -1,0 +1,76 @@
+.page-body{
+  width: 100%;
+  max-width: 1024px;
+  min-height: unset;
+  margin: auto;
+  padding: 32px 0 90px 0;
+}
+@media screen and (max-width: 768px) {
+  .page-body{
+    padding-top: 16px;
+  }
+}
+
+.catering-page-title{
+  font-size: 32px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  padding: 48px 0 8px 0;
+}
+
+.catering-page-subtitle{
+  font-size: 16px;
+  font-weight: 600;
+  color: #767676;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+
+.catering-info-background{
+  /*background-image: url('/src/catering_1.jpg');*/
+  /*background-size: cover;*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+  background: #f5f5f5;
+  border-radius: 5px;
+  height: 200px;
+  width: 480px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .catering-info-background{
+    height: 200px;
+    width: calc(100% - 32px);
+  }
+}
+
+.catering-info-background >.catering-info-inner-block{
+  border-radius: 8px;
+  padding: 32px;
+}
+
+.catering-info-inner-block > .catering-description{
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.catering-info-inner-block > .catering-email > a{
+  text-decoration: underline;
+}
+
+.cater-company-list{
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+
+.cater-company-list-single-logo{
+
+}

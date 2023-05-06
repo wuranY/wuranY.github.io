@@ -3,11 +3,12 @@
   max-width: 1024px;
   min-height: unset;
   margin: auto;
-  padding: 32px 0 90px 0;
+  padding: 32px 16px 90px 16px;
 }
 @media screen and (max-width: 768px) {
   .page-body{
     padding-top: 16px;
+    padding-bottom: 32px;
   }
 }
 
@@ -17,6 +18,7 @@
   display: flex;
   justify-content: center;
   padding: 48px 0 8px 0;
+  text-align: center;
 }
 
 .catering-page-subtitle{
@@ -45,7 +47,7 @@
 @media screen and (max-width: 768px) {
   .catering-info-background{
     height: 200px;
-    width: calc(100% - 32px);
+    width: 100%;
   }
 }
 
@@ -63,14 +65,22 @@
 }
 
 .cater-company-list{
-  margin-top: 32px;
-  display: flex;
-  justify-content: center;
+  margin-top: 24px;
   padding: 32px 0;
   border-top: 1px solid #ececec;
   border-bottom: 1px solid #ececec;
+  text-align: center;
 }
 
 .cater-company-list-single-logo{
-
+  height: 60px;
+  margin: 8px 16px;
+  display: inline-block;
+}
+@media screen and (max-width: 768px) {
+  .cater-company-list-single-logo{
+    height: 40px;
+    margin: 4px 8px;
+    display: inline-block;
+  }
 }

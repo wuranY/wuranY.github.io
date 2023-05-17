@@ -1,0 +1,36 @@
+.page-body{
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  padding: 60px 16px 90px 16px;
+  min-height: calc(100% - 370px);
+}
+@media screen and (max-width: 768px) {
+  .page-body{
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+}
+
+.join-us-page-title {
+  font-size: 32px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  padding: 48px 0 24px 0;
+  text-align: center;
+}
+
+.join-us-email {
+  text-align: center;
+}
+
+.join-us-email > span {
+  font-size: 20px;
+}
+
+.join-us-email > a {
+  font-size: 20px;
+  color: navy;
+  text-decoration: underline;
+}
